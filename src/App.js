@@ -1,11 +1,8 @@
 import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
-  return (
-    <div>
-      <h1 className="text-center">Sophia's Portfolio Coming Soon</h1>
-    </div>
-  );
+  return <PortfolioContainer />
 }
 
 export default App;
