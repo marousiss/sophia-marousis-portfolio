@@ -13,7 +13,7 @@ export default function Footer() {
 
   return (
     <footer style={styles.footerStyle}>
-      <div className="container text-center mb-5">
+      <div className="container text-center mt-3 mb-3">
         <p>footer info</p>
       </div>
     </footer>

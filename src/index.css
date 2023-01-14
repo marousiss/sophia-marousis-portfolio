@@ -40,3 +40,12 @@ li {
   border-radius: 50%;
   image-rendering: high-quality;
 }
+
+.skills {
+  color: white;
+  font-size: 15px;
+}
+
+.resume {
+  font-size: 18px;
+}
