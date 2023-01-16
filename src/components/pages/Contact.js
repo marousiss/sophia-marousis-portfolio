@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 
+import { validateEmail } from '../../utils/helpers';
+
 export default function Contact() {
 
   const [contactName, setContactName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
 
     name === "contact-name" ? setContactName(value) : setContactEmail(value);
+
   };
 
   const checkUserInput = (e) => {
@@ -16,13 +20,18 @@ export default function Contact() {
 
     if (!value) {
       name === "contact-name"
-        ? alert(`Name is a required field. Please enter a value`)
-        : alert(`email is a required field. Please enter a value`);
+        ? alert(`Name is a required field. Please enter a name`)
+        : alert(`email is a required field. Please enter an email`);
     }
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
+
+    if (!validateEmail(contactEmail)) {
+      setErrorMessage('Email is invalid');
+      return;
+    }
 
     setContactName("");
     setContactEmail("");
@@ -76,6 +85,11 @@ export default function Contact() {
           </button>
         </div>
       </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
   );
 }
