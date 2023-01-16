@@ -25,7 +25,7 @@ const pages = [
 
 export default function Header({ currentPage, handlePageChange }) {
   return (
-    <header className="mb-6 py-4 display-flex">
+    <header className="row mb-6 py-4 display-flex">
       <div className="row">
         <div className="col-6">
           <h2 className="name">Sophia Marousis</h2>

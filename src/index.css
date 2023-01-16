@@ -31,6 +31,10 @@ li {
   color: white
 }
 
+.nav-text-active-black {
+  color: black;
+}
+
 .about {
   font-size: smaller;
 }
@@ -46,7 +50,7 @@ li {
   color: white;
 }
 
-.image {
+.photo {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -60,4 +64,38 @@ li {
 
 .resume {
   font-size: smaller;
+}
+
+.image-card {
+  position: relative;
+  margin-left: 25px;
+}
+
+.top-left {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  color: black;
+  font-size: 18px;
+  opacity: 0;
+
+}
+
+.image-card:hover .port-image {
+  opacity: 0.3;
+}
+
+.image-card:hover .top-left {
+  opacity: 1;
+}
+
+.top-left a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: medium;
+}
+
+.top-left a:hover {
+  text-decoration: underline;
 }

@@ -7,7 +7,7 @@ export default function About() {
       <div className="col-10">
         <h3 className="mb-3">About me</h3>
         <div>
-          <img className="image mb-3" src={photo} alt="me" />
+          <img className="photo mb-3" src={photo} alt="me" />
         </div>
         <div className="about">
           <p>
