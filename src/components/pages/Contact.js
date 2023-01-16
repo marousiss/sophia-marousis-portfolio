@@ -29,7 +29,7 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className="row mb-5">
       <h3>Contact</h3>
       <form className="flex-row" onSubmit={handleFormSubmit}>
         <div className="form-group col-6">

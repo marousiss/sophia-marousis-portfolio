@@ -21,7 +21,7 @@ const backEndSkills = [
 ];
 export default function Resume() {
   return (
-    <div className="flex-row">
+    <div className="row mb-5">
       <div className="col-6">
         <h3>Resume</h3>
         <div>
