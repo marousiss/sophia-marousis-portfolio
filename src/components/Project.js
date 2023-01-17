@@ -1,4 +1,8 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
+const github = <FontAwesomeIcon icon={faGithub} />;
 
 export default function Project(props) {
   const styles = {
@@ -19,7 +23,7 @@ export default function Project(props) {
         />
         <div className="top-left">
           <a href={props.project.deployedUrl}>{props.project.title}</a>
-          <a href={props.project.gitHubUrl}>GitHub</a>
+          <a href={props.project.gitHubUrl}>{github}</a>
         </div>
       </div>
     </div>
