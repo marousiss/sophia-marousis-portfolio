@@ -2,7 +2,7 @@
   "name": "sophia-marousis-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/marousiss/sophia-marousis-portfolio",
+  "homepage": "https://marousiss.github.io/sophia-marousis-portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",

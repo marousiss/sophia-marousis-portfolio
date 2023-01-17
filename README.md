@@ -16,6 +16,7 @@ N/A
 
 ## Usage
 
+[Link to portfolio](https://marousiss.github.io/sophia-marousis-portfolio/)
 
 ## Credits
 

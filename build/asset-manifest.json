@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sophia-marousis-portfolio/static/css/main.8fb2177f.css",
+    "main.js": "/sophia-marousis-portfolio/static/js/main.f9c8fb66.js",
+    "static/media/sophiamarousis.jpeg": "/sophia-marousis-portfolio/static/media/sophiamarousis.1542453950bb54a325d1.jpeg",
+    "static/media/movie-randomizer.jpg": "/sophia-marousis-portfolio/static/media/movie-randomizer.8f9097ca33ac21143bcd.jpg",
+    "static/media/weather-dashboard.jpg": "/sophia-marousis-portfolio/static/media/weather-dashboard.a271b2f2b6545faae581.jpg",
+    "static/media/work-day-scheduler.png": "/sophia-marousis-portfolio/static/media/work-day-scheduler.8f051657ad945e3dd02f.png",
+    "static/media/SophiaMarousisResume.pdf": "/sophia-marousis-portfolio/static/media/SophiaMarousisResume.d33a33a5a5bb8c7d8167.pdf",
+    "static/media/cuisine-and-recipes.png": "/sophia-marousis-portfolio/static/media/cuisine-and-recipes.370e93279f183e1857ec.png",
+    "static/media/timed-code-quiz.jpg": "/sophia-marousis-portfolio/static/media/timed-code-quiz.75c0dbca52af8dedfbde.jpg",
+    "static/media/password-generator.png": "/sophia-marousis-portfolio/static/media/password-generator.fcf97146cc82b3eac2e1.png",
+    "index.html": "/sophia-marousis-portfolio/index.html",
+    "main.8fb2177f.css.map": "/sophia-marousis-portfolio/static/css/main.8fb2177f.css.map",
+    "main.f9c8fb66.js.map": "/sophia-marousis-portfolio/static/js/main.f9c8fb66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fb2177f.css",
+    "static/js/main.f9c8fb66.js"
+  ]
+}
