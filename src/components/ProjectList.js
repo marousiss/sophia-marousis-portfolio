@@ -34,6 +34,13 @@ const projects = [
     technologies: "HTML/CSS/Javascript",
     imageFile: require("../assets/images/password-generator.png"),
   },
+  {
+    title: "Work Day Scheduler",
+    deployedUrl: "https://marousiss.github.io/work-day-planner/",
+    gitHubUrl: "https://github.com/marousiss/work-day-planner",
+    technologies: "HTML/CSS/Javascript/jQuery",
+    imageFile: require("../assets/images/work-day-scheduler.png"),
+  },
 ];
 
 export default projects;
