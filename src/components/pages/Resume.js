@@ -34,7 +34,7 @@ export default function Resume() {
         </div>
         <div>
           <h5>Front-End Skills</h5>
-          <ul classNames="skills">
+          <ul className="skills">
             {frontEndSkills.map((frontEndSkill, index) => (
               <li className="skills" key={index}>
                 {frontEndSkill}
@@ -44,7 +44,7 @@ export default function Resume() {
         </div>
         <div>
           <h5>Back-End Skills</h5>
-          <ul classNames="skills">
+          <ul className="skills">
             {backEndSkills.map((backEndSkill, index) => (
               <li className="skills" key={index}>
                 {backEndSkill}

@@ -3,10 +3,8 @@ import Project from "../Project";
 
 import projects from "../ProjectList";
 
-
-export default function Portfolio() {
-  return (
-    <div className="row mb-5">
+/*
+<div className="row mb-5">
       <h3>Portfolio</h3>
       <div className="col-8 d-flex">
         <div className="row row-cols-2">
@@ -16,6 +14,10 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
+*/
 
+export default function Portfolio() {
+  return (
+    <Project projects={projects} />
   );
 }
