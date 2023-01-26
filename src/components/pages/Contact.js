@@ -15,15 +15,15 @@ export default function Contact() {
 
   };
 
-  const checkUserInput = (e) => {
-    const { name, value } = e.target;
+  // const checkUserInput = (e) => {
+  //   const { name, value } = e.target;
 
-    if (!value) {
-      name === "contact-name"
-        ? alert(`Name is a required field. Please enter a name`)
-        : alert(`email is a required field. Please enter an email`);
-    }
-  };
+  //   if (!value) {
+  //     name === "contact-name"
+  //       ? alert(`Name is a required field. Please enter a name`)
+  //       : alert(`email is a required field. Please enter an email`);
+  //   }
+  // };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
@@ -51,7 +51,7 @@ export default function Contact() {
             value={contactName}
             required
             onChange={handleInputChange}
-            onMouseLeave={checkUserInput}
+            // onMouseLeave={checkUserInput}
           />
         </div>
         <div className="form-group col-6">
@@ -64,7 +64,7 @@ export default function Contact() {
             value={contactEmail}
             required
             onChange={handleInputChange}
-            onMouseLeave={checkUserInput}
+            // onMouseLeave={checkUserInput}
           />
         </div>
         <div className="form-group col-6">

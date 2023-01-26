@@ -12,23 +12,7 @@ export default function Project(props) {
     },
   };
 
-  /*
-  <div className="col d-flex" id={props.index}>
-      <div className="card mb-4 image-card">
-        <img
-          src={props.project.imageFile}
-          className="port-image"
-          alt=""
-          style={styles.imageSize}
-        />
-        <div className="top-left">
-          <a href={props.project.deployedUrl}>{props.project.title}</a>
-          <a href={props.project.gitHubUrl}>{github}</a>
-        </div>
-      </div>
-    </div>
-  */
-
+  
   return (
     <div className="row mb-5">
       <h3>Portfolio</h3>
