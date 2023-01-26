@@ -19,7 +19,7 @@ export default function Project(props) {
       <div className="col-10 d-flex">
         <div className="row row-cols-2">
           {props.projects.map((project, index) => (
-            <div className="col d-flex" id={index}>
+            <div key={index} className="col d-flex">
               <div className="card mb-4 image-card">
                 <img
                   src={project.imageFile}
@@ -31,8 +31,8 @@ export default function Project(props) {
                   <a href={project.deployedUrl}>{project.title}</a>
                   <a href={project.gitHubUrl}>{github}</a>
                 </div>
-              </div>
-            </div>
+                </div> 
+            </div> 
           ))}
         </div>
       </div>
