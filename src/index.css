@@ -29,6 +29,10 @@ li {
   font-size: 50px;
 }
 
+.name:hover {
+  color: white;
+}
+
 .nav-text-white {
   color: white
 }
@@ -38,8 +42,9 @@ li {
 }
 
 .about {
-  font-size: smaller;
+  font-size: 22px;
 }
+
 .portfolio-content {
   font-size: 22px;
   margin-top: 50px;

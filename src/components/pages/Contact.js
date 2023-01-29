@@ -6,12 +6,20 @@ export default function Contact() {
 
   const [contactName, setContactName] = useState("");
   const [contactEmail, setContactEmail] = useState("");
+  const [contactMsg, setContactMsg] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
 
-    name === "contact-name" ? setContactName(value) : setContactEmail(value);
+    //name === "contact-name" ? setContactName(value) : setContactEmail(value);
+    if (name === "contact-name") {
+      setContactName(value);
+    } else if (name === "contact-email") {
+      setContactEmail(value);
+    } else {
+      setContactMsg(value);
+    }
 
   };
 
@@ -35,12 +43,18 @@ export default function Contact() {
 
     setContactName("");
     setContactEmail("");
+    setContactMsg("");
+    setErrorMessage("");
   };
 
   return (
     <div className="row mb-5">
       <h3>Contact</h3>
-      <form className="flex-row" onSubmit={handleFormSubmit}>
+      <form
+        action="mailto:marousiss@gmail.com"
+        className="flex-row"
+        onSubmit={handleFormSubmit}
+      >
         <div className="form-group col-6">
           <label htmlFor="contact-name">Name:</label>
           <input
@@ -72,6 +86,9 @@ export default function Contact() {
           <textarea
             className="form-control"
             id="contact-msg"
+            name="contact-msg"
+            value={contactMsg}
+            onChange={handleInputChange}
             rows="5"
           ></textarea>
         </div>
