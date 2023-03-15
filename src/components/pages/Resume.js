@@ -1,5 +1,6 @@
 import React from "react";
-import ResumeFile from "../../assets/pdfs/SophiaMarousisResume.pdf";
+
+import ResumeFile from "../../assets/pdfs/myResume.pdf";
 
 const frontEndSkills = [
   "HTML5",
