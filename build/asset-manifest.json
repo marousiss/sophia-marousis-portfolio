@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/sophia-marousis-portfolio/static/css/main.7a3d65d3.css",
-    "main.js": "/sophia-marousis-portfolio/static/js/main.fba5e895.js",
+    "main.js": "/sophia-marousis-portfolio/static/js/main.704cde14.js",
     "static/media/sophiamarousis.jpeg": "/sophia-marousis-portfolio/static/media/sophiamarousis.1542453950bb54a325d1.jpeg",
     "static/media/movie-randomizer.png": "/sophia-marousis-portfolio/static/media/movie-randomizer.8f9097ca33ac21143bcd.png",
     "static/media/weather-dashboard.jpg": "/sophia-marousis-portfolio/static/media/weather-dashboard.a271b2f2b6545faae581.jpg",
     "static/media/work-day-scheduler.png": "/sophia-marousis-portfolio/static/media/work-day-scheduler.8f051657ad945e3dd02f.png",
-    "static/media/SophiaMarousisResume.pdf": "/sophia-marousis-portfolio/static/media/SophiaMarousisResume.d33a33a5a5bb8c7d8167.pdf",
+    "static/media/myResume.pdf": "/sophia-marousis-portfolio/static/media/myResume.ce97892e044ec8306d1f.pdf",
     "static/media/cuisine-and-recipes.png": "/sophia-marousis-portfolio/static/media/cuisine-and-recipes.370e93279f183e1857ec.png",
     "index.html": "/sophia-marousis-portfolio/index.html",
     "main.7a3d65d3.css.map": "/sophia-marousis-portfolio/static/css/main.7a3d65d3.css.map",
-    "main.fba5e895.js.map": "/sophia-marousis-portfolio/static/js/main.fba5e895.js.map"
+    "main.704cde14.js.map": "/sophia-marousis-portfolio/static/js/main.704cde14.js.map"
   },
   "entrypoints": [
     "static/css/main.7a3d65d3.css",
-    "static/js/main.fba5e895.js"
+    "static/js/main.704cde14.js"
   ]
 }
